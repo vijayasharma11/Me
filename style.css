@@ -1,0 +1,114 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: #f4f4f4; */
+  background-color: aliceblue
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header a, footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav {
+  background-color: #555;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  background-color: #888;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  background-color: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #007bff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #212930; /* Dark blue */
+}
+
+.logo .initials {
+  font-size: 50px;
+  font-family: 'Arial', sans-serif;
+  color: #f39c12; /* Gold color */
+  margin-right: 15px;
+}
+
+.logo-text {
+  font-size: 38px;
+  letter-spacing: 1px;
+}
+
+.logo-text .name {
+  font-size: 30px;
+  color: #85abd1; /* Slightly lighter blue for the full name */
+  font-weight: normal;
+}
+
+.logo-text .surname {
+  color: #2980b9; /* Teal Blue for surname */
+  font-weight: bold;
+}
+
+.tagline {
+  font-size: 18px;
+  color: #7f8c8d;
+  margin-top: 5px;
+  align-items: end;
+}
