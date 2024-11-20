@@ -5,6 +5,7 @@ body {
   padding: 0;
   /* background-color: #f4f4f4; */
   background-color: aliceblue
+  
 }
 
 .container {
@@ -19,19 +20,21 @@ header, footer {
   color: white;
   text-align: center;
   padding: 10px 0;
+  position: sticky;
 }
 
 header a, footer a {
   color: white;
   text-decoration: none;
   margin: 0 10px;
+  position: sticky;
 }
 
-nav {
+/* nav {
   background-color: #555;
   padding: 10px;
   text-align: center;
-}
+} */
 
 nav a {
   color: white;
@@ -81,6 +84,7 @@ ul li a:hover {
   align-items: center;
   font-weight: bold;
   color: #212930; /* Dark blue */
+  position: sticky;
 }
 
 .logo .initials {
@@ -109,6 +113,75 @@ ul li a:hover {
 .tagline {
   font-size: 18px;
   color: #7f8c8d;
-  margin-top: 5px;
+  margin-top: 3px;
   align-items: end;
 }
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: aliceblue;
+  padding-top: 100px;  /* Ensure the content doesn't get hidden behind the header */
+  padding-bottom: 50px;  /* Ensure the content doesn't get hidden behind the footer */
+}
+
+/* Header Styling */
+header {
+  background-color: #706a6a;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;  /* Ensure the header is above other content */
+}
+
+footer {
+  background-color: #706a6a;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;  /* Ensure footer is above other content */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+  
+
+  
+
+
